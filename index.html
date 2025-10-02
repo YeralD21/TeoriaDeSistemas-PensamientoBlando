@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pensamiento de Sistemas Blandos aplicado a la Gestión de Tesis Universitarias - Metodología SSM de Peter Checkland">
+    <meta name="keywords" content="SSM, sistemas blandos, gestión tesis, metodología Checkland, universidad">
+    <meta name="author" content="Equipo de Teoría de Sistemas">
+    <title>Pensamiento de Sistemas Blandos — Gestión de Tesis (SSM aplicado)</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="main-title">Pensamiento de Sistemas Blandos</h1>
+            <p class="subtitle">Gestión de Tesis Universitarias mediante SSM (Soft Systems Methodology)</p>
+            <nav class="nav">
+                <a href="#inicio" class="nav-link" onclick="scrollToSection('inicio')">Inicio</a>
+                <a href="#metodologia" class="nav-link" onclick="scrollToSection('metodologia')">Metodología</a>
+                <a href="#modelos" class="nav-link" onclick="scrollToSection('modelos')">Modelos</a>
+                <a href="#recomendaciones" class="nav-link" onclick="scrollToSection('recomendaciones')">Recomendaciones</a>
+                <a href="#contacto" class="nav-link" onclick="scrollToSection('contacto')">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="layout">
+                <!-- Columna Principal (60%) -->
+                <div class="main-column">
+                    
+                    <!-- Introducción -->
+                    <section id="inicio" class="section">
+                        <h2 class="section-title">Introducción al SSM en Gestión Universitaria</h2>
+                        <div class="content-block">
+                            <p>La Metodología de Sistemas Blandos (SSM) desarrollada por Peter Checkland ofrece un enfoque estructurado para abordar problemas complejos y no estructurados en organizaciones. En el contexto universitario, la gestión de tesis representa un desafío multidimensional que involucra múltiples actores, procesos y tecnologías.</p>
+                            
+                            <p>Esta metodología es especialmente valiosa para procesos universitarios porque permite analizar situaciones donde los objetivos no están claramente definidos, existen múltiples perspectivas sobre el problema, y se requiere una aproximación holística que considere tanto aspectos técnicos como humanos.</p>
+                            
+                            <p>El SSM proporciona un marco conceptual para entender, modelar y mejorar sistemas complejos mediante siete pasos estructurados que guían desde la identificación del problema hasta la implementación de soluciones viables y deseables.</p>
+                        </div>
+                    </section>
+
+                    <!-- Los 7 Pasos del SSM -->
+                    <section id="metodologia" class="section">
+                        <h2 class="section-title">Los 7 Pasos del Análisis SSM</h2>
+                        
+                        <!-- Paso 1 -->
+                        <div class="step-card">
+                            <div class="step-header">
+                                <span class="step-number">1</span>
+                                <h3 class="step-title">Situación No Estructurada</h3>
+                            </div>
+                            <div class="step-content">
+                                <p>En la universidad, los estudiantes enfrentan dificultades significativas en la gestión integral de sus tesis, abarcando desde la elección inicial del tema hasta la defensa final. El proceso actual se caracteriza por ser lento, burocrático y carente de transparencia, generando frustración tanto en estudiantes como en el cuerpo académico.</p>
+                                
+                                <div class="example-box">
+                                    <h4>Ejemplo Concreto:</h4>
+                                    <p><strong>Estudiante:</strong> María González, estudiante de Ingeniería de Sistemas<br>
+                                    <strong>Problema:</strong> Después de 3 meses de intentos, aún no ha logrado que le asignen un asesor para su tesis sobre "Machine Learning aplicado a diagnóstico médico"<br>
+                                    <strong>Impacto:</strong> Retraso en su graduación, pérdida de oportunidades laborales, frustración académica</p>
+                                </div>
+                                
+                                <div class="questions-box">
+                                    <h4>Preguntas Clave:</h4>
+                                    <ul>
+                                        <li>¿Cuáles son los principales puntos de fricción en el proceso actual?</li>
+                                        <li>¿Qué información necesitan los estudiantes para tomar decisiones informadas?</li>
+                                        <li>¿Cómo se puede medir la eficiencia del proceso actual?</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="result-card">
+                                    <strong>Resultado Esperado:</strong> Identificación clara de los problemas percibidos por cada actor involucrado
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Paso 2 -->
+                        <div class="step-card">
+                            <div class="step-header">
+                                <span class="step-number">2</span>
+                                <h3 class="step-title">Situación Expresada (Rich Picture)</h3>
+                            </div>
+                            <div class="step-content">
+                                <p>La situación actual se caracteriza por múltiples actores con necesidades y frustraciones específicas. Los estudiantes experimentan falta de claridad y comunicación efectiva. Los asesores enfrentan sobrecarga de revisiones sin un sistema centralizado. Los dictaminadores manejan procesos manuales para programar evaluaciones. Los administradores tienen dificultades para controlar pagos, avances y plazos de manera eficiente.</p>
+                                
+                                <div class="example-box">
+                                    <h4>Ejemplo Concreto:</h4>
+                                    <p><strong>Dr. Huamán (Asesor):</strong> "Recibo 15 correos diarios de estudiantes pidiendo revisiones urgentes. No tengo un sistema para priorizar o trackear el progreso de cada tesis"<br>
+                                    <strong>Lic. Morales (Administrador):</strong> "Debo revisar manualmente 200 expedientes para verificar pagos y plazos. Es imposible detectar retrasos a tiempo"</p>
+                                </div>
+                                
+                                <div class="questions-box">
+                                    <h4>Preguntas Clave:</h4>
+                                    <ul>
+                                        <li>¿Cómo interactúan actualmente los diferentes actores?</li>
+                                        <li>¿Qué información fluye entre ellos y cuál se pierde?</li>
+                                        <li>¿Dónde están los cuellos de botella más críticos?</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="result-card">
+                                    <strong>Resultado Esperado:</strong> Rich Picture que visualice las relaciones y flujos de información entre actores
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Paso 3 -->
+                        <div class="step-card">
+                            <div class="step-header">
+                                <span class="step-number">3</span>
+                                <h3 class="step-title">Definición de Raíces (Root Definition)</h3>
+                            </div>
+                            <div class="step-content">
+                                <p>Un sistema de gestión integral de tesis que facilite la coordinación entre estudiantes, asesores, dictaminadores y administradores, mediante una plataforma tecnológica centralizada que garantice un proceso ágil, transparente y con roles claramente definidos, optimizando el tiempo de graduación y la calidad académica.</p>
+                                
+                                <div class="example-box">
+                                    <h4>Ejemplo Concreto:</h4>
+                                    <p><strong>Root Definition:</strong> "Un sistema que permita a María solicitar asesoría online, al Dr. Huamán revisar avances de forma estructurada, y a la administración monitorear el progreso en tiempo real, todo integrado en una plataforma única"</p>
+                                </div>
+                                
+                                <div class="questions-box">
+                                    <h4>Preguntas Clave:</h4>
+                                    <ul>
+                                        <li>¿Cuál es el propósito fundamental del sistema?</li>
+                                        <li>¿Qué transformación se busca lograr?</li>
+                                        <li>¿Cuáles son los stakeholders principales?</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="result-card">
+                                    <strong>Resultado Esperado:</strong> Definición clara y concisa del sistema ideal a desarrollar
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Paso 4 -->
+                        <div class="step-card">
+                            <div class="step-header">
+                                <span class="step-number">4</span>
+                                <h3 class="step-title">Construcción de Modelos Conceptuales</h3>
+                            </div>
+                            <div class="step-content">
+                                <p>El modelo ideal contempla un flujo digitalizado donde el estudiante sube sus avances de forma estructurada, el asesor revisa en línea y proporciona feedback detallado, el dictaminador recibe automáticamente las versiones finales, y el administrador controla plazos y pagos mediante dashboards en tiempo real.</p>
+                                
+                                <div class="example-box">
+                                    <h4>Ejemplo Concreto:</h4>
+                                    <p><strong>Flujo Ideal:</strong> María sube su propuesta → Sistema notifica al Dr. Huamán → Revisión con comentarios estructurados → Aprobación automática → Notificación a dictaminadores → Seguimiento de plazos</p>
+                                </div>
+                                
+                                <div class="questions-box">
+                                    <h4>Preguntas Clave:</h4>
+                                    <ul>
+                                        <li>¿Cuáles son las actividades principales del sistema?</li>
+                                        <li>¿Cómo se relacionan estas actividades?</li>
+                                        <li>¿Qué controles y monitoreo son necesarios?</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="result-card">
+                                    <strong>Resultado Esperado:</strong> Modelo conceptual detallado del proceso ideal
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Paso 5 -->
+                        <div class="step-card">
+                            <div class="step-header">
+                                <span class="step-number">5</span>
+                                <h3 class="step-title">Comparación Modelo vs Realidad</h3>
+                            </div>
+                            <div class="step-content">
+                                <p>La realidad actual se caracteriza por procesos manuales, lentos y confusos, mientras que el modelo ideal propone un sistema digital y coordinado. La principal diferencia radica en la falta de digitalización y organización sistemática de los procesos.</p>
+                                
+                                <div class="comparison-table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Aspecto</th>
+                                                <th>Realidad Actual</th>
+                                                <th>Modelo Ideal</th>
+                                                <th>Acción Correctiva</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Comunicación</td>
+                                                <td>Correos dispersos</td>
+                                                <td>Plataforma centralizada</td>
+                                                <td>Implementar sistema de mensajería integrada</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Revisión</td>
+                                                <td>Procesos manuales</td>
+                                                <td>Workflow automatizado</td>
+                                                <td>Crear flujos de aprobación digitales</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Monitoreo</td>
+                                                <td>Control manual</td>
+                                                <td>Dashboards en tiempo real</td>
+                                                <td>Desarrollar paneles de control</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                                <div class="result-card">
+                                    <strong>Resultado Esperado:</strong> Identificación clara de brechas y oportunidades de mejora
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Paso 6 -->
+                        <div class="step-card">
+                            <div class="step-header">
+                                <span class="step-number">6</span>
+                                <h3 class="step-title">Cambios Deseables y Viables</h3>
+                            </div>
+                            <div class="step-content">
+                                <p>Los cambios identificados incluyen la implementación de un software integral que gestione roles y entregas, la automatización de notificaciones y recordatorios, la integración de pagos en línea, y la capacitación del personal en el uso del sistema.</p>
+                                
+                                <div class="changes-priority">
+                                    <div class="priority-high">
+                                        <h4>🔴 Prioridad Alta</h4>
+                                        <ul>
+                                            <li><strong>Plataforma centralizada:</strong> Coste medio, impacto alto, viabilidad alta</li>
+                                            <li><strong>Automatización de notificaciones:</strong> Coste bajo, impacto medio, viabilidad alta</li>
+                                        </ul>
+                                    </div>
+                                    <div class="priority-medium">
+                                        <h4>🟡 Prioridad Media</h4>
+                                        <ul>
+                                            <li><strong>Integración de pagos:</strong> Coste alto, impacto alto, viabilidad media</li>
+                                            <li><strong>Dashboards analíticos:</strong> Coste medio, impacto medio, viabilidad alta</li>
+                                        </ul>
+                                    </div>
+                                    <div class="priority-low">
+                                        <h4>🟢 Prioridad Baja</h4>
+                                        <ul>
+                                            <li><strong>IA para matching asesor-estudiante:</strong> Coste muy alto, impacto medio, viabilidad baja</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="result-card">
+                                    <strong>Resultado Esperado:</strong> Roadmap priorizado de implementación con criterios de viabilidad
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Paso 7 -->
+                        <div class="step-card">
+                            <div class="step-header">
+                                <span class="step-number">7</span>
+                                <h3 class="step-title">Acción para Mejorar</h3>
+                            </div>
+                            <div class="step-content">
+                                <p>La propuesta contempla el desarrollo de un Sistema de Gestión de Tesis mediante metodología ágil (Scrum), con el objetivo de lograr mayor eficiencia, reducir la frustración de usuarios, incrementar la transparencia y disminuir significativamente el tiempo promedio para graduarse.</p>
+                                
+                                <div class="sprint-plan">
+                                    <div class="sprint">
+                                        <h4>Sprint 1 (Mes 1-2): MVP Básico</h4>
+                                        <ul>
+                                            <li>Registro de estudiantes y asesores</li>
+                                            <li>Solicitud y asignación de asesoría</li>
+                                            <li>Sistema básico de notificaciones</li>
+                                        </ul>
+                                        <p><strong>Métrica:</strong> Reducción del 30% en tiempo de asignación de asesores</p>
+                                    </div>
+                                    <div class="sprint">
+                                        <h4>Sprint 2 (Mes 3-4): Funcionalidades Avanzadas</h4>
+                                        <ul>
+                                            <li>Workflow de revisión digital</li>
+                                            <li>Dashboard de administración</li>
+                                            <li>Integración de pagos</li>
+                                        </ul>
+                                        <p><strong>Métrica:</strong> 80% de satisfacción estudiantil</p>
+                                    </div>
+                                    <div class="sprint">
+                                        <h4>Sprint 3 (Mes 5-6): Optimización</h4>
+                                        <ul>
+                                            <li>Analytics avanzados</li>
+                                            <li>Automatización de recordatorios</li>
+                                            <li>Módulo de reportes</li>
+                                        </ul>
+                                        <p><strong>Métrica:</strong> Reducción del 50% en tiempo total de gestión de tesis</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="result-card">
+                                    <strong>Resultado Esperado:</strong> Plan de implementación detallado con métricas de éxito cuantificables
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Sección de Modelos -->
+                    <section id="modelos" class="section">
+                        <h2 class="section-title">Modelos Conceptuales y Diagramas</h2>
+                        <div class="content-block">
+                            <h3>Modelo de Flujo del Proceso Ideal</h3>
+                            <div class="process-model">
+                                <div class="model-step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h4>Solicitud de Tema</h4>
+                                        <p>El estudiante propone su tema de investigación a través de la plataforma</p>
+                                    </div>
+                                </div>
+                                <div class="model-arrow">→</div>
+                                <div class="model-step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h4>Asignación de Asesor</h4>
+                                        <p>Sistema automático de matching basado en especialización</p>
+                                    </div>
+                                </div>
+                                <div class="model-arrow">→</div>
+                                <div class="model-step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h4>Seguimiento Continuo</h4>
+                                        <p>Monitoreo de avances con notificaciones automáticas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Sección de Recomendaciones -->
+                    <section id="recomendaciones" class="section">
+                        <h2 class="section-title">Recomendaciones de Implementación</h2>
+                        <div class="content-block">
+                            <h3>Roadmap de Implementación</h3>
+                            <div class="recommendations-grid">
+                                <div class="recommendation-card">
+                                    <h4>Fase 1: Análisis y Diseño</h4>
+                                    <ul>
+                                        <li>Mapeo completo de procesos actuales</li>
+                                        <li>Diseño de arquitectura del sistema</li>
+                                        <li>Definición de roles y permisos</li>
+                                    </ul>
+                                    <span class="timeline">2-3 meses</span>
+                                </div>
+                                <div class="recommendation-card">
+                                    <h4>Fase 2: Desarrollo MVP</h4>
+                                    <ul>
+                                        <li>Desarrollo de funcionalidades core</li>
+                                        <li>Integración con sistemas existentes</li>
+                                        <li>Pruebas de usuario</li>
+                                    </ul>
+                                    <span class="timeline">3-4 meses</span>
+                                </div>
+                                <div class="recommendation-card">
+                                    <h4>Fase 3: Despliegue y Capacitación</h4>
+                                    <ul>
+                                        <li>Implementación gradual</li>
+                                        <li>Capacitación del personal</li>
+                                        <li>Soporte y mantenimiento</li>
+                                    </ul>
+                                    <span class="timeline">2-3 meses</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Columna Secundaria (40%) -->
+                <div class="sidebar">
+                    
+                    <!-- Rich Picture -->
+                    <div class="sidebar-card">
+                        <h3 class="card-title">Rich Picture - Actores y Relaciones</h3>
+                        <div class="rich-picture">
+                            <svg viewBox="0 0 400 300" class="diagram">
+                                <!-- Estudiante -->
+                                <circle cx="100" cy="80" r="30" fill="#6EB0A5" stroke="#E6EAF2" stroke-width="2"/>
+                                <text x="100" y="85" text-anchor="middle" fill="#0f1724" font-size="12" font-weight="bold">Estudiante</text>
+                                
+                                <!-- Asesor -->
+                                <circle cx="300" cy="80" r="30" fill="#BAA0FF" stroke="#E6EAF2" stroke-width="2"/>
+                                <text x="300" y="85" text-anchor="middle" fill="#0f1724" font-size="12" font-weight="bold">Asesor</text>
+                                
+                                <!-- Dictaminador -->
+                                <circle cx="200" cy="150" r="30" fill="#E6B785" stroke="#E6EAF2" stroke-width="2"/>
+                                <text x="200" y="155" text-anchor="middle" fill="#0f1724" font-size="12" font-weight="bold">Dictaminador</text>
+                                
+                                <!-- Administrador -->
+                                <circle cx="100" cy="220" r="30" fill="#6EB0A5" stroke="#E6EAF2" stroke-width="2"/>
+                                <text x="100" y="225" text-anchor="middle" fill="#0f1724" font-size="12" font-weight="bold">Admin</text>
+                                
+                                <!-- Sistema Central -->
+                                <rect x="250" y="200" width="80" height="50" rx="10" fill="#BAA0FF" stroke="#E6EAF2" stroke-width="2"/>
+                                <text x="290" y="230" text-anchor="middle" fill="#0f1724" font-size="10" font-weight="bold">Sistema</text>
+                                
+                                <!-- Flechas de interacción -->
+                                <line x1="130" y1="80" x2="270" y2="80" stroke="#E6EAF2" stroke-width="2" marker-end="url(#arrowhead)"/>
+                                <line x1="200" y1="120" x2="200" y2="120" stroke="#E6EAF2" stroke-width="2" marker-end="url(#arrowhead)"/>
+                                <line x1="130" y1="220" x2="250" y2="220" stroke="#E6EAF2" stroke-width="2" marker-end="url(#arrowhead)"/>
+                                
+                                <!-- Definir marcador de flecha -->
+                                <defs>
+                                    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                                        <polygon points="0 0, 10 3.5, 0 7" fill="#E6EAF2"/>
+                                    </marker>
+                                </defs>
+                            </svg>
+                        </div>
+                        <button class="download-btn" onclick="downloadDiagram()">Descargar Diagrama</button>
+                    </div>
+
+                    <!-- Modelo Conceptual -->
+                    <div class="sidebar-card">
+                        <h3 class="card-title">Modelo Conceptual del Proceso</h3>
+                        <div class="process-flow">
+                            <div class="flow-step">1. Solicitud</div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">2. Asignación</div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">3. Revisión</div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">4. Aprobación</div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">5. Defensa</div>
+                        </div>
+                    </div>
+
+                    <!-- Calculadora de Impacto -->
+                    <div class="sidebar-card">
+                        <h3 class="card-title">Calculadora de Impacto</h3>
+                        <div class="calculator">
+                            <label for="currentTime">Tiempo actual (días):</label>
+                            <input type="number" id="currentTime" value="180" min="1" max="365">
+                            
+                            <label for="efficiency">Eficiencia esperada (%):</label>
+                            <input type="number" id="efficiency" value="50" min="1" max="100">
+                            
+                            <button onclick="calculateImpact()" class="calc-btn">Calcular</button>
+                            
+                            <div id="result" class="calc-result">
+                                <strong>Tiempo estimado:</strong> <span id="estimatedTime">90 días</span><br>
+                                <strong>Ahorro:</strong> <span id="savings">90 días</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Acciones Recomendadas -->
+                    <div class="sidebar-card action-card">
+                        <h3 class="card-title">Propuesta de MVP</h3>
+                        <div class="action-content">
+                            <p>Implementar un sistema piloto con funcionalidades básicas para validar la metodología SSM en un entorno controlado.</p>
+                            
+                            <div class="action-buttons">
+                                <button class="action-btn primary" onclick="requestDemo()">Solicitar Demo</button>
+                                <button class="action-btn secondary" onclick="downloadReport()">Descargar Informe</button>
+                                <button class="action-btn tertiary" onclick="contactTeam()">Contactar Equipo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Preguntas Frecuentes -->
+                    <div class="sidebar-card">
+                        <h3 class="card-title">Preguntas Frecuentes</h3>
+                        <div class="faq">
+                            <div class="faq-item">
+                                <button class="faq-question" onclick="toggleFAQ(this)">¿Cuánto tiempo toma implementar SSM?</button>
+                                <div class="faq-answer">
+                                    <p>La metodología SSM puede aplicarse en 2-3 meses para casos como gestión de tesis, con resultados visibles desde el primer mes.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <button class="faq-question" onclick="toggleFAQ(this)">¿Qué recursos se necesitan?</button>
+                                <div class="faq-answer">
+                                    <p>Un equipo multidisciplinario de 4-6 personas, incluyendo analistas de sistemas, representantes de cada actor y un facilitador experto en SSM.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <button class="faq-question" onclick="toggleFAQ(this)">¿Cómo se mide el éxito?</button>
+                                <div class="faq-answer">
+                                    <p>Mediante métricas cuantitativas (tiempo de procesamiento, satisfacción) y cualitativas (percepción de transparencia, facilidad de uso).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contacto y Más Información</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¿Interesado en implementar SSM?</h3>
+                    <p>Contacta con nuestro equipo para obtener más información sobre la metodología de Sistemas Blandos y su aplicación en tu institución.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>📧 Email:</strong> sistemas@upeu.edu.pe
+                        </div>
+                        <div class="contact-item">
+                            <strong>📞 Teléfono:</strong> +51 1 234-5678
+                        </div>
+                        <div class="contact-item">
+                            <strong>🌐 Web:</strong> www.upeu.edu.pe
+                        </div>
+                        <div class="contact-item">
+                            <strong>📍 Dirección:</strong> Universidad Peruana Unión
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Envíanos un mensaje</h3>
+                    <form class="form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Referencias</h4>
+                    <p>Checkland, P. (1981). Systems Thinking, Systems Practice. John Wiley & Sons.</p>
+                    <p>Checkland, P. & Scholes, J. (1990). Soft Systems Methodology in Action.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Créditos</h4>
+                    <p>Desarrollado por el equipo de Teoría de Sistemas</p>
+                    <p>Universidad Peruana Unión</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>Email: sistemas@upeu.edu.pe</p>
+                    <p>Tel: +51 1 234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Teoría de Sistemas - UPEU. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Resumen Imprimible (Modal) -->
+    <div id="printModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Resumen Ejecutivo - SSM en Gestión de Tesis</h2>
+            <div class="print-content">
+                <h3>Problema Identificado</h3>
+                <p>Procesos manuales, lentos y poco transparentes en la gestión de tesis universitarias, generando frustración en estudiantes, asesores y administradores.</p>
+                
+                <h3>Solución Propuesta</h3>
+                <p>Sistema integral de gestión digital que automatice workflows, centralice comunicación y proporcione transparencia total del proceso.</p>
+                
+                <h3>Beneficios Esperados</h3>
+                <ul>
+                    <li>Reducción del 50% en tiempo de gestión</li>
+                    <li>Incremento del 80% en satisfacción estudiantil</li>
+                    <li>Transparencia total del proceso</li>
+                    <li>Optimización de recursos académicos</li>
+                </ul>
+                
+                <h3>Implementación</h3>
+                <p>Metodología ágil en 3 sprints de 2 meses cada uno, con métricas de éxito cuantificables y seguimiento continuo.</p>
+            </div>
+            <button onclick="printSummary()" class="print-btn">Imprimir Resumen</button>
+        </div>
+    </div>
+
+    <script>
+        // Funciones JavaScript para interactividad
+        
+        // Header dinámico con scroll - Funcionamiento consistente
+        let lastScrollTop = 0;
+        let scrollTimeout;
+        const header = document.querySelector('.header');
+        const SCROLL_THRESHOLD = 100; // Umbral para ocultar elementos
+        const DEBOUNCE_DELAY = 50; // Delay más corto para mejor respuesta
+        
+        function updateHeader() {
+            const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            // Si está en la parte superior (primeros 50px), mostrar header completo
+            if (currentScrollTop <= 50) {
+                header.classList.remove('scrolled');
+                lastScrollTop = currentScrollTop;
+                return;
+            }
+            
+            // Si está scrolleando hacia abajo y ha pasado el umbral, ocultar elementos
+            if (currentScrollTop > SCROLL_THRESHOLD) {
+                header.classList.add('scrolled');
+            }
+            
+            lastScrollTop = currentScrollTop;
+        }
+        
+        function handleScroll() {
+            // Limpiar timeout anterior
+            clearTimeout(scrollTimeout);
+            
+            // Usar debounce para suavidad
+            scrollTimeout = setTimeout(() => {
+                updateHeader();
+            }, DEBOUNCE_DELAY);
+        }
+        
+        // Event listener para scroll
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        
+        // Función de navegación suave
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                const headerHeight = document.querySelector('.header').offsetHeight;
+                const targetPosition = section.offsetTop - headerHeight - 20;
+                
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }
+        
+        // Función para manejar el formulario de contacto
+        function handleContactForm(event) {
+            event.preventDefault();
+            alert('¡Gracias por tu mensaje! Te contactaremos pronto.');
+        }
+        
+        // Agregar event listener al formulario
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('.form');
+            if (form) {
+                form.addEventListener('submit', handleContactForm);
+            }
+        });
+        
+        function calculateImpact() {
+            const currentTime = document.getElementById('currentTime').value;
+            const efficiency = document.getElementById('efficiency').value;
+            const estimatedTime = Math.round(currentTime * (100 - efficiency) / 100);
+            const savings = currentTime - estimatedTime;
+            
+            document.getElementById('estimatedTime').textContent = estimatedTime + ' días';
+            document.getElementById('savings').textContent = savings + ' días';
+        }
+
+        function downloadDiagram() {
+            alert('Función de descarga implementada. En producción, esto generaría un archivo PNG del diagrama.');
+        }
+
+        function requestDemo() {
+            alert('Redirigiendo a formulario de solicitud de demo...');
+        }
+
+        function downloadReport() {
+            alert('Generando PDF del informe completo...');
+        }
+
+        function contactTeam() {
+            alert('Abriendo formulario de contacto...');
+        }
+
+        function toggleFAQ(element) {
+            const answer = element.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        }
+
+        function openModal() {
+            document.getElementById('printModal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('printModal').style.display = 'none';
+        }
+
+        function printSummary() {
+            window.print();
+        }
+
+        // Smooth scrolling para navegación
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

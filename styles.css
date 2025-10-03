@@ -1086,6 +1086,86 @@ body {
     }
 }
 
+/* Estilos para el bloque CATWOE en el Paso 3 */
+.catwoe-box {
+    margin: var(--spacing-xl) 0;
+    padding: var(--spacing-xl);
+    background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.catwoe-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    pointer-events: none;
+}
+
+.catwoe-box h4 {
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-lg);
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+.catwoe-box p {
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-lg);
+    line-height: 1.6;
+    position: relative;
+    z-index: 1;
+}
+
+.catwoe-box ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: var(--spacing-lg);
+    position: relative;
+    z-index: 1;
+}
+
+.catwoe-box li {
+    margin-bottom: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius);
+    border-left: 4px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    transition: var(--transition-normal);
+}
+
+.catwoe-box li:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateX(5px);
+}
+
+.catwoe-box li strong {
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.catwoe-box .result-card {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    position: relative;
+    z-index: 1;
+}
+
+.catwoe-box .result-card strong {
+    color: var(--text-primary);
+}
+
 /* Estilos para las tarjetas de conceptos en el Paso 4 */
 .concept-box {
     margin: var(--spacing-lg) 0;

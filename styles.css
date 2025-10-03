@@ -1085,3 +1085,280 @@ body {
         background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     }
 }
+
+/* Estilos para las tarjetas de conceptos en el Paso 4 */
+.concept-box {
+    margin: var(--spacing-lg) 0;
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--surface-light);
+    position: relative;
+    overflow: hidden;
+}
+
+.concept-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+}
+
+.concept-box h4 {
+    margin-bottom: var(--spacing-md);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.concept-box p {
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Enfoque de Sistemas Formales - Verde-azulado */
+.formal-approach {
+    background: linear-gradient(135deg, rgba(110, 176, 165, 0.1) 0%, rgba(110, 176, 165, 0.05) 100%);
+    border-left: 4px solid var(--accent-primary);
+}
+
+.formal-approach::before {
+    background: linear-gradient(90deg, var(--accent-primary), rgba(110, 176, 165, 0.7));
+}
+
+.formal-approach h4 {
+    color: var(--accent-primary);
+}
+
+/* Enfoque de Pensamiento de Sistemas - Lavanda */
+.systems-approach {
+    background: linear-gradient(135deg, rgba(186, 160, 255, 0.1) 0%, rgba(186, 160, 255, 0.05) 100%);
+    border-left: 4px solid var(--accent-secondary);
+}
+
+.systems-approach::before {
+    background: linear-gradient(90deg, var(--accent-secondary), rgba(186, 160, 255, 0.7));
+}
+
+.systems-approach h4 {
+    color: var(--accent-secondary);
+}
+
+/* Estilos para Sistemas Formales y Pensamiento Sistémico */
+.formal-systems,
+.systems-thinking {
+    margin-bottom: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    background: var(--surface);
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--surface-light);
+}
+
+.systems-comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-md);
+}
+
+.system-type,
+.system-examples {
+    padding: var(--spacing-md);
+    background: var(--surface-light);
+    border-radius: var(--border-radius);
+    border-left: 4px solid var(--accent-primary);
+}
+
+.system-type h5,
+.system-examples h5 {
+    color: var(--accent-primary);
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.1rem;
+}
+
+.system-type ul,
+.system-examples ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.system-type li,
+.system-examples li {
+    margin-bottom: var(--spacing-sm);
+    padding-left: var(--spacing-sm);
+    position: relative;
+}
+
+.system-type li::before,
+.system-examples li::before {
+    content: "▶";
+    color: var(--accent-secondary);
+    position: absolute;
+    left: 0;
+}
+
+.thinking-principles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-md);
+}
+
+.principle-card {
+    padding: var(--spacing-lg);
+    background: var(--surface);
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--surface-light);
+    transition: var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+}
+
+.principle-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+}
+
+.principle-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.principle-card h5 {
+    color: var(--accent-primary);
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.principle-card p {
+    margin-bottom: var(--spacing-md);
+    line-height: 1.6;
+}
+
+.integration-section {
+    margin-top: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    background: linear-gradient(135deg, var(--surface) 0%, var(--surface-light) 100%);
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--accent-primary);
+}
+
+.integration-model {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    margin: var(--spacing-lg) 0;
+}
+
+.model-layer {
+    padding: var(--spacing-lg);
+    background: var(--surface);
+    border-radius: var(--border-radius);
+    border-left: 6px solid var(--accent-secondary);
+    position: relative;
+    transition: var(--transition-normal);
+}
+
+.model-layer:hover {
+    transform: translateX(10px);
+    box-shadow: var(--shadow-md);
+}
+
+.model-layer h5 {
+    color: var(--accent-secondary);
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.1rem;
+}
+
+.model-layer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.model-layer li {
+    margin-bottom: var(--spacing-xs);
+    padding-left: var(--spacing-sm);
+    position: relative;
+}
+
+.model-layer li::before {
+    content: "✓";
+    color: var(--accent-primary);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.practical-application {
+    margin-top: var(--spacing-lg);
+    padding: var(--spacing-lg);
+    background: var(--surface-light);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--accent-warm);
+}
+
+.practical-application h5 {
+    color: var(--accent-warm);
+    margin-bottom: var(--spacing-md);
+    font-size: 1.2rem;
+}
+
+.application-example {
+    background: var(--surface);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius);
+    border-left: 4px solid var(--accent-warm);
+}
+
+.application-example h6 {
+    color: var(--accent-primary);
+    margin-bottom: var(--spacing-md);
+    font-size: 1.1rem;
+}
+
+.application-example p {
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.6;
+}
+
+.application-example strong {
+    color: var(--accent-secondary);
+}
+
+/* Responsive para la nueva sección */
+@media (max-width: 768px) {
+    .systems-comparison {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .thinking-principles {
+        grid-template-columns: 1fr;
+    }
+    
+    .principle-card {
+        padding: var(--spacing-md);
+    }
+    
+    .integration-model {
+        gap: var(--spacing-sm);
+    }
+    
+    .model-layer {
+        padding: var(--spacing-md);
+    }
+    
+    .model-layer:hover {
+        transform: none;
+    }
+}
